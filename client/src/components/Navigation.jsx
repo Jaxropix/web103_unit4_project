@@ -2,6 +2,7 @@ import React from 'react'
 import '../App.css'
 import '../css/Navigation.css'
 
+
 const Navigation = () => {
     return (
         <nav>
@@ -11,7 +12,7 @@ const Navigation = () => {
 
             <ul>
                 <li><a href='/' role='button'>Customize</a></li>
-                <li><a href='/customcars' role='button'>View Cars</a></li>
+                <li><a href='/all' role='button'>View Cars</a></li>
             </ul>
             
         </nav>
